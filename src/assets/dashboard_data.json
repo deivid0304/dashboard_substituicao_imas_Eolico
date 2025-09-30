@@ -1,0 +1,43 @@
+{
+  "ciclos": [
+    {
+      "Ciclo": "Primeiro Ciclo",
+      "Máquinas Paradas": 0,
+      "Imãs Trocados": 1262.0,
+      "Oxidação Baixa": 42,
+      "Oxidação Média": 43,
+      "Oxidação Alta": 9
+    },
+    {
+      "Ciclo": "Segundo Ciclo",
+      "Máquinas Paradas": 0,
+      "Imãs Trocados": 80.0,
+      "Oxidação Baixa": 36,
+      "Oxidação Média": 38,
+      "Oxidação Alta": 2
+    },
+    {
+      "Ciclo": "Terceiro Ciclo",
+      "Máquinas Paradas": 0,
+      "Imãs Trocados": 340.0,
+      "Oxidação Baixa": 25,
+      "Oxidação Média": 25,
+      "Oxidação Alta": 0
+    }
+  ],
+  "anos": [
+    {
+      "Ano": 2024,
+      "Qtd. Imas trocados": 1380.0
+    },
+    {
+      "Ano": 2025,
+      "Qtd. Imas trocados": 340.0
+    }
+  ],
+  "resumo": {
+    "total_imas_trocados": 1720.0,
+    "total_turbinas": 47,
+    "periodo_analise": "2024-2025"
+  }
+}
