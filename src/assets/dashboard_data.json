@@ -1,43 +1,1459 @@
 {
+  "oxidacao_temporal": {
+    "temporal_por_mes": [
+      {
+        "Ciclo": "Primeiro Ciclo",
+        "Mes_Ano": "2024-04",
+        "Oxidacao_Baixa": 0,
+        "Oxidacao_Media": 0,
+        "Oxidacao_Alta": 5,
+        "Total_Registros": 5,
+        "Total_Oxidacao": 5,
+        "Percentual_Oxidacao": 100.0
+      },
+      {
+        "Ciclo": "Primeiro Ciclo",
+        "Mes_Ano": "2024-05",
+        "Oxidacao_Baixa": 10,
+        "Oxidacao_Media": 3,
+        "Oxidacao_Alta": 6,
+        "Total_Registros": 19,
+        "Total_Oxidacao": 19,
+        "Percentual_Oxidacao": 100.0
+      },
+      {
+        "Ciclo": "Primeiro Ciclo",
+        "Mes_Ano": "2024-06",
+        "Oxidacao_Baixa": 9,
+        "Oxidacao_Media": 5,
+        "Oxidacao_Alta": 7,
+        "Total_Registros": 21,
+        "Total_Oxidacao": 21,
+        "Percentual_Oxidacao": 100.0
+      },
+      {
+        "Ciclo": "Segundo Ciclo",
+        "Mes_Ano": "2024-11",
+        "Oxidacao_Baixa": 21,
+        "Oxidacao_Media": 3,
+        "Oxidacao_Alta": 2,
+        "Total_Registros": 26,
+        "Total_Oxidacao": 26,
+        "Percentual_Oxidacao": 100.0
+      },
+      {
+        "Ciclo": "Segundo Ciclo",
+        "Mes_Ano": "2024-12",
+        "Oxidacao_Baixa": 14,
+        "Oxidacao_Media": 5,
+        "Oxidacao_Alta": 2,
+        "Total_Registros": 21,
+        "Total_Oxidacao": 21,
+        "Percentual_Oxidacao": 100.0
+      },
+      {
+        "Ciclo": "Terceiro Ciclo",
+        "Mes_Ano": "2025-03",
+        "Oxidacao_Baixa": 6,
+        "Oxidacao_Media": 1,
+        "Oxidacao_Alta": 1,
+        "Total_Registros": 8,
+        "Total_Oxidacao": 8,
+        "Percentual_Oxidacao": 100.0
+      },
+      {
+        "Ciclo": "Terceiro Ciclo",
+        "Mes_Ano": "2025-04",
+        "Oxidacao_Baixa": 10,
+        "Oxidacao_Media": 0,
+        "Oxidacao_Alta": 3,
+        "Total_Registros": 13,
+        "Total_Oxidacao": 13,
+        "Percentual_Oxidacao": 100.0
+      },
+      {
+        "Ciclo": "Terceiro Ciclo",
+        "Mes_Ano": "2025-05",
+        "Oxidacao_Baixa": 8,
+        "Oxidacao_Media": 1,
+        "Oxidacao_Alta": 0,
+        "Total_Registros": 9,
+        "Total_Oxidacao": 9,
+        "Percentual_Oxidacao": 100.0
+      }
+    ],
+    "variacao_entre_ciclos": [
+      {
+        "Ciclo": "Primeiro Ciclo",
+        "Oxidacao_Baixa": 20,
+        "Oxidacao_Media": 8,
+        "Oxidacao_Alta": 18,
+        "Troca_Spindle": 0,
+        "Total_Registros": 46,
+        "Total_Oxidacao": 46,
+        "Percentual_Oxidacao": 100.0,
+        "Percentual_Baixa": 43.48,
+        "Percentual_Media": 17.39,
+        "Percentual_Alta": 39.13
+      },
+      {
+        "Ciclo": "Segundo Ciclo",
+        "Oxidacao_Baixa": 35,
+        "Oxidacao_Media": 8,
+        "Oxidacao_Alta": 4,
+        "Troca_Spindle": 0,
+        "Total_Registros": 47,
+        "Total_Oxidacao": 47,
+        "Percentual_Oxidacao": 100.0,
+        "Percentual_Baixa": 74.47,
+        "Percentual_Media": 17.02,
+        "Percentual_Alta": 8.51
+      },
+      {
+        "Ciclo": "Terceiro Ciclo",
+        "Oxidacao_Baixa": 34,
+        "Oxidacao_Media": 8,
+        "Oxidacao_Alta": 5,
+        "Troca_Spindle": 0,
+        "Total_Registros": 47,
+        "Total_Oxidacao": 47,
+        "Percentual_Oxidacao": 100.0,
+        "Percentual_Baixa": 72.34,
+        "Percentual_Media": 17.02,
+        "Percentual_Alta": 10.64
+      }
+    ]
+  },
   "ciclos": [
     {
       "Ciclo": "Primeiro Ciclo",
-      "Máquinas Paradas": 0,
-      "Imãs Trocados": 1262.0,
-      "Oxidação Baixa": 42,
-      "Oxidação Média": 43,
-      "Oxidação Alta": 9
+      "Maquinas_Paradas": 19,
+      "Imas_Trocados": 1262.0,
+      "Criticidade_Baixa": 25,
+      "Criticidade_Media": 16,
+      "Criticidade_Alta": 5,
+      "Dias_Parada_Medio": 29.89
     },
     {
       "Ciclo": "Segundo Ciclo",
-      "Máquinas Paradas": 0,
-      "Imãs Trocados": 80.0,
-      "Oxidação Baixa": 36,
-      "Oxidação Média": 38,
-      "Oxidação Alta": 2
+      "Maquinas_Paradas": 1,
+      "Imas_Trocados": 80.0,
+      "Criticidade_Baixa": 39,
+      "Criticidade_Media": 8,
+      "Criticidade_Alta": 0,
+      "Dias_Parada_Medio": 0.04
     },
     {
       "Ciclo": "Terceiro Ciclo",
-      "Máquinas Paradas": 0,
-      "Imãs Trocados": 340.0,
-      "Oxidação Baixa": 25,
-      "Oxidação Média": 25,
-      "Oxidação Alta": 0
-    }
-  ],
-  "anos": [
-    {
-      "Ano": 2024,
-      "Qtd. Imas trocados": 1380.0
+      "Maquinas_Paradas": 4,
+      "Imas_Trocados": 340.0,
+      "Criticidade_Baixa": 39,
+      "Criticidade_Media": 7,
+      "Criticidade_Alta": 1,
+      "Dias_Parada_Medio": 0.21
     },
     {
-      "Ano": 2025,
-      "Qtd. Imas trocados": 340.0
+      "Ciclo": "Troca de Spindle",
+      "Maquinas_Paradas": 3,
+      "Imas_Trocados": 38.0,
+      "Criticidade_Baixa": 0,
+      "Criticidade_Media": 2,
+      "Criticidade_Alta": 1,
+      "Dias_Parada_Medio": 22.67
+    }
+  ],
+  "oxidacao": [
+    {
+      "Ciclo_Inspecao": "Primeiro Ciclo",
+      "Oxidacao_Baixa": 20,
+      "Oxidacao_Media": 8,
+      "Oxidacao_Alta": 18,
+      "Total_Registros": 46,
+      "Total_Oxidacao": 46,
+      "Percentual_Com_Oxidacao": 100.0
+    },
+    {
+      "Ciclo_Inspecao": "Segundo Ciclo",
+      "Oxidacao_Baixa": 35,
+      "Oxidacao_Media": 8,
+      "Oxidacao_Alta": 4,
+      "Total_Registros": 47,
+      "Total_Oxidacao": 47,
+      "Percentual_Com_Oxidacao": 100.0
+    },
+    {
+      "Ciclo_Inspecao": "Terceiro Ciclo",
+      "Oxidacao_Baixa": 34,
+      "Oxidacao_Media": 8,
+      "Oxidacao_Alta": 5,
+      "Total_Registros": 47,
+      "Total_Oxidacao": 47,
+      "Percentual_Com_Oxidacao": 100.0
+    },
+    {
+      "Ciclo_Inspecao": "Troca de Spindle",
+      "Oxidacao_Baixa": 0,
+      "Oxidacao_Media": 0,
+      "Oxidacao_Alta": 3,
+      "Total_Registros": 3,
+      "Total_Oxidacao": 3,
+      "Percentual_Com_Oxidacao": 100.0
+    }
+  ],
+  "turbinas": [
+    {
+      "Turbina": "AEG-01",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-05-27",
+      "Ultima_Inspecao": "2025-04-28",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-02",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-06-13",
+      "Ultima_Inspecao": "2024-12-13",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-03",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-06-19",
+      "Ultima_Inspecao": "2024-12-18",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-04",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-05-24",
+      "Ultima_Inspecao": "2025-03-18",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-05",
+      "Total_Imas_Trocados": 80.0,
+      "Primeira_Inspecao": "2024-05-13",
+      "Ultima_Inspecao": "2025-04-02",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 173.0,
+      "MTBF_Dias": 6.4375,
+      "MTTR_Dias": 2.1625,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-06",
+      "Total_Imas_Trocados": 20.0,
+      "Primeira_Inspecao": "2024-04-26",
+      "Ultima_Inspecao": "2024-11-28",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 111.0,
+      "MTBF_Dias": 26.6,
+      "MTTR_Dias": 5.55,
+      "Nivel_Risco": "🟨 MÉDIO RISCO"
+    },
+    {
+      "Turbina": "AEG-07",
+      "Total_Imas_Trocados": 30.0,
+      "Primeira_Inspecao": "2024-06-10",
+      "Ultima_Inspecao": "2024-11-28",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 16.0,
+      "MTBF_Dias": 16.233333333333334,
+      "MTTR_Dias": 0.5333333333333333,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-08",
+      "Total_Imas_Trocados": 3.0,
+      "Primeira_Inspecao": "2024-05-29",
+      "Ultima_Inspecao": "2025-05-07",
+      "Total_Inspecoes": 4,
+      "Dias_Parada_Acumulados": 35.0,
+      "MTBF_Dias": 166.33333333333334,
+      "MTTR_Dias": 11.666666666666666,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-09",
+      "Total_Imas_Trocados": 20.0,
+      "Primeira_Inspecao": "2024-05-31",
+      "Ultima_Inspecao": "2025-05-09",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 17.0,
+      "MTBF_Dias": 24.85,
+      "MTTR_Dias": 0.85,
+      "Nivel_Risco": "🟨 MÉDIO RISCO"
+    },
+    {
+      "Turbina": "AEG-10",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-06-03",
+      "Ultima_Inspecao": "2024-11-28",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-11",
+      "Total_Imas_Trocados": 20.0,
+      "Primeira_Inspecao": "2024-06-03",
+      "Ultima_Inspecao": "2025-05-12",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 15.0,
+      "MTBF_Dias": 24.7,
+      "MTTR_Dias": 0.75,
+      "Nivel_Risco": "🟨 MÉDIO RISCO"
+    },
+    {
+      "Turbina": "AEG-12",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-06-04",
+      "Ultima_Inspecao": "2025-05-13",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-13",
+      "Total_Imas_Trocados": 50.0,
+      "Primeira_Inspecao": "2024-06-04",
+      "Ultima_Inspecao": "2025-05-14",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 21.0,
+      "MTBF_Dias": 9.86,
+      "MTTR_Dias": 0.42,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-14",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-05-23",
+      "Ultima_Inspecao": "2025-04-10",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-15",
+      "Total_Imas_Trocados": 50.0,
+      "Primeira_Inspecao": "2024-05-28",
+      "Ultima_Inspecao": "2025-04-30",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 25.0,
+      "MTBF_Dias": 10.0,
+      "MTTR_Dias": 0.5,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-16",
+      "Total_Imas_Trocados": 50.0,
+      "Primeira_Inspecao": "2024-05-08",
+      "Ultima_Inspecao": "2025-05-02",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 58.0,
+      "MTBF_Dias": 10.4,
+      "MTTR_Dias": 1.16,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-17",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-05-27",
+      "Ultima_Inspecao": "2025-04-29",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-18",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-05-09",
+      "Ultima_Inspecao": "2025-05-05",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-19",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-05-29",
+      "Ultima_Inspecao": "2025-05-06",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-20",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-06-06",
+      "Ultima_Inspecao": "2025-03-25",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-21",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-06-07",
+      "Ultima_Inspecao": "2024-11-14",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-22",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-11-27",
+      "Ultima_Inspecao": "2025-05-15",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-23",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-06-07",
+      "Ultima_Inspecao": "2024-11-20",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-24",
+      "Total_Imas_Trocados": 40.0,
+      "Primeira_Inspecao": "2024-06-05",
+      "Ultima_Inspecao": "2024-12-04",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 15.0,
+      "MTBF_Dias": 12.3,
+      "MTTR_Dias": 0.375,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-25",
+      "Total_Imas_Trocados": 32.0,
+      "Primeira_Inspecao": "2024-07-15",
+      "Ultima_Inspecao": "2025-03-26",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 12.0,
+      "MTBF_Dias": 14.125,
+      "MTTR_Dias": 0.375,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-26",
+      "Total_Imas_Trocados": 20.0,
+      "Primeira_Inspecao": "2024-06-05",
+      "Ultima_Inspecao": "2024-12-03",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 10.0,
+      "MTBF_Dias": 24.6,
+      "MTTR_Dias": 0.5,
+      "Nivel_Risco": "🟨 MÉDIO RISCO"
+    },
+    {
+      "Turbina": "AEG-27",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-06-06",
+      "Ultima_Inspecao": "2024-12-04",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-28",
+      "Total_Imas_Trocados": 50.0,
+      "Primeira_Inspecao": "2024-06-21",
+      "Ultima_Inspecao": "2024-12-13",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 11.0,
+      "MTBF_Dias": 9.52,
+      "MTTR_Dias": 0.22,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-29",
+      "Total_Imas_Trocados": 142.0,
+      "Primeira_Inspecao": "2024-04-09",
+      "Ultima_Inspecao": "2025-04-01",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 202.0,
+      "MTBF_Dias": 3.8661971830985915,
+      "MTTR_Dias": 1.4225352112676057,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-30",
+      "Total_Imas_Trocados": 10.0,
+      "Primeira_Inspecao": "2024-06-14",
+      "Ultima_Inspecao": "2024-12-02",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 48.3,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-31",
+      "Total_Imas_Trocados": 10.0,
+      "Primeira_Inspecao": "2024-05-10",
+      "Ultima_Inspecao": "2024-12-09",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 1.0,
+      "MTBF_Dias": 51.8,
+      "MTTR_Dias": 0.1,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-32",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-06-17",
+      "Ultima_Inspecao": "2025-03-21",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-33",
+      "Total_Imas_Trocados": 80.0,
+      "Primeira_Inspecao": "2024-04-02",
+      "Ultima_Inspecao": "2024-11-23",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 128.0,
+      "MTBF_Dias": 6.95,
+      "MTTR_Dias": 1.6,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-34",
+      "Total_Imas_Trocados": 60.0,
+      "Primeira_Inspecao": "2024-05-17",
+      "Ultima_Inspecao": "2024-12-04",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 43.0,
+      "MTBF_Dias": 8.516666666666667,
+      "MTTR_Dias": 0.7166666666666667,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-35",
+      "Total_Imas_Trocados": 400.0,
+      "Primeira_Inspecao": "2024-04-26",
+      "Ultima_Inspecao": "2025-04-11",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 166.0,
+      "MTBF_Dias": 1.33,
+      "MTTR_Dias": 0.415,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-36",
+      "Total_Imas_Trocados": 300.0,
+      "Primeira_Inspecao": "2024-05-03",
+      "Ultima_Inspecao": "2025-03-20",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 144.0,
+      "MTBF_Dias": 1.75,
+      "MTTR_Dias": 0.48,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-37",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-06-11",
+      "Ultima_Inspecao": "2025-03-24",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-38",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-06-18",
+      "Ultima_Inspecao": "2025-03-19",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-39",
+      "Total_Imas_Trocados": 120.0,
+      "Primeira_Inspecao": "2024-05-24",
+      "Ultima_Inspecao": "2025-04-23",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 2.0,
+      "MTBF_Dias": 4.2,
+      "MTTR_Dias": 0.016666666666666666,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-40",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-06-12",
+      "Ultima_Inspecao": "2024-12-05",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-41",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-05-20",
+      "Ultima_Inspecao": "2025-04-04",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-42",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-06-20",
+      "Ultima_Inspecao": "2024-12-13",
+      "Total_Inspecoes": 2,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-43",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-05-23",
+      "Ultima_Inspecao": "2025-04-22",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    },
+    {
+      "Turbina": "AEG-44",
+      "Total_Imas_Trocados": 23.0,
+      "Primeira_Inspecao": "2024-06-11",
+      "Ultima_Inspecao": "2025-04-07",
+      "Total_Inspecoes": 4,
+      "Dias_Parada_Acumulados": 29.0,
+      "MTBF_Dias": 21.130434782608695,
+      "MTTR_Dias": 1.2608695652173914,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-45",
+      "Total_Imas_Trocados": 90.0,
+      "Primeira_Inspecao": "2024-04-02",
+      "Ultima_Inspecao": "2025-04-08",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 197.0,
+      "MTBF_Dias": 6.177777777777778,
+      "MTTR_Dias": 2.188888888888889,
+      "Nivel_Risco": "🟥 ALTO RISCO"
+    },
+    {
+      "Turbina": "AEG-46",
+      "Total_Imas_Trocados": 20.0,
+      "Primeira_Inspecao": "2024-05-21",
+      "Ultima_Inspecao": "2025-03-17",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 24.0,
+      "MTBF_Dias": 25.35,
+      "MTTR_Dias": 1.2,
+      "Nivel_Risco": "🟨 MÉDIO RISCO"
+    },
+    {
+      "Turbina": "AEG-47",
+      "Total_Imas_Trocados": 0.0,
+      "Primeira_Inspecao": "2024-05-22",
+      "Ultima_Inspecao": "2025-04-09",
+      "Total_Inspecoes": 3,
+      "Dias_Parada_Acumulados": 0.0,
+      "MTBF_Dias": 0.0,
+      "MTTR_Dias": 0.0,
+      "Nivel_Risco": "🟩 BAIXO RISCO"
+    }
+  ],
+  "carreiras": [
+    {
+      "Carreira": "C-06",
+      "Total_Imas_Trocados": 40.0,
+      "Turbinas_Afetadas": 4,
+      "Total_Intervencoes": 4,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-83",
+      "Total_Imas_Trocados": 40.0,
+      "Turbinas_Afetadas": 4,
+      "Total_Intervencoes": 4,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-02",
+      "Total_Imas_Trocados": 30.0,
+      "Turbinas_Afetadas": 3,
+      "Total_Intervencoes": 3,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-05",
+      "Total_Imas_Trocados": 30.0,
+      "Turbinas_Afetadas": 3,
+      "Total_Intervencoes": 3,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-10",
+      "Total_Imas_Trocados": 30.0,
+      "Turbinas_Afetadas": 3,
+      "Total_Intervencoes": 3,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-01",
+      "Total_Imas_Trocados": 30.0,
+      "Turbinas_Afetadas": 3,
+      "Total_Intervencoes": 3,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-56",
+      "Total_Imas_Trocados": 30.0,
+      "Turbinas_Afetadas": 3,
+      "Total_Intervencoes": 3,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-82",
+      "Total_Imas_Trocados": 30.0,
+      "Turbinas_Afetadas": 3,
+      "Total_Intervencoes": 3,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-58",
+      "Total_Imas_Trocados": 30.0,
+      "Turbinas_Afetadas": 3,
+      "Total_Intervencoes": 3,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-57",
+      "Total_Imas_Trocados": 30.0,
+      "Turbinas_Afetadas": 3,
+      "Total_Intervencoes": 3,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-31",
+      "Total_Imas_Trocados": 30.0,
+      "Turbinas_Afetadas": 3,
+      "Total_Intervencoes": 3,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-64",
+      "Total_Imas_Trocados": 30.0,
+      "Turbinas_Afetadas": 3,
+      "Total_Intervencoes": 3,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-23",
+      "Total_Imas_Trocados": 30.0,
+      "Turbinas_Afetadas": 3,
+      "Total_Intervencoes": 3,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-120",
+      "Total_Imas_Trocados": 30.0,
+      "Turbinas_Afetadas": 3,
+      "Total_Intervencoes": 3,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-118",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-18",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-65",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-67",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-61",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-45",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-63",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-35",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-100",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-07",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-119",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-15",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-113",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-17",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-11",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-03",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-84",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-86",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-90",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 20.0
+    },
+    {
+      "Carreira": "C-91",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-97",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-93",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-78",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-81",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-75",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-69",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-77",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-74",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-33",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-24",
+      "Total_Imas_Trocados": 20.0,
+      "Turbinas_Afetadas": 2,
+      "Total_Intervencoes": 2,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-103",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-104",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-14",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-117",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-108",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-107",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-110",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-114",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-115",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-116",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-09",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-101",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-04",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-08",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-27",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-22",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-19",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-20",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-62",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-60",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-59",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-46",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-48",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-51",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-52",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-55",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-47",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-26",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-21",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-28",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-30",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-29",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-32",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-39",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-80",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-79",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-76",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-70",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-71",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-66",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-87",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-85",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-88",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-89",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-94",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-92",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-95",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-96",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-98",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    },
+    {
+      "Carreira": "C-99",
+      "Total_Imas_Trocados": 10.0,
+      "Turbinas_Afetadas": 1,
+      "Total_Intervencoes": 1,
+      "Media_Imas_Por_Turbina": 10.0
+    }
+  ],
+  "mensal": [
+    {
+      "Mes_Ano": "2024-04",
+      "Imas_Trocados": 522.0,
+      "Turbinas_Unicas": 5,
+      "Dias_Parada_Total": 797.0
+    },
+    {
+      "Mes_Ano": "2024-05",
+      "Imas_Trocados": 520.0,
+      "Turbinas_Unicas": 19,
+      "Dias_Parada_Total": 482.0
+    },
+    {
+      "Mes_Ano": "2024-06",
+      "Imas_Trocados": 220.0,
+      "Turbinas_Unicas": 21,
+      "Dias_Parada_Total": 96.0
+    },
+    {
+      "Mes_Ano": "2024-07",
+      "Imas_Trocados": 32.0,
+      "Turbinas_Unicas": 1,
+      "Dias_Parada_Total": 12.0
+    },
+    {
+      "Mes_Ano": "2024-10",
+      "Imas_Trocados": 3.0,
+      "Turbinas_Unicas": 1,
+      "Dias_Parada_Total": 35.0
+    },
+    {
+      "Mes_Ano": "2024-11",
+      "Imas_Trocados": 43.0,
+      "Turbinas_Unicas": 27,
+      "Dias_Parada_Total": 21.0
+    },
+    {
+      "Mes_Ano": "2024-12",
+      "Imas_Trocados": 40.0,
+      "Turbinas_Unicas": 21,
+      "Dias_Parada_Total": 2.0
+    },
+    {
+      "Mes_Ano": "2025-03",
+      "Imas_Trocados": 20.0,
+      "Turbinas_Unicas": 8,
+      "Dias_Parada_Total": 1.0
+    },
+    {
+      "Mes_Ano": "2025-04",
+      "Imas_Trocados": 320.0,
+      "Turbinas_Unicas": 13,
+      "Dias_Parada_Total": 9.0
+    },
+    {
+      "Mes_Ano": "2025-05",
+      "Imas_Trocados": 0.0,
+      "Turbinas_Unicas": 9,
+      "Dias_Parada_Total": 0.0
     }
   ],
   "resumo": {
     "total_imas_trocados": 1720.0,
     "total_turbinas": 47,
-    "periodo_analise": "2024-2025"
+    "total_criticidade": 143,
+    "total_maquinas_paradas": 27,
+    "total_carreiras": 94,
+    "total_oxidacao_baixa": 34,
+    "total_oxidacao_media": 8,
+    "total_oxidacao_alta": 5,
+    "total_oxidacao": 47,
+    "periodo_analise": "2024-04 a 2025-05",
+    "data_ultima_atualizacao": "2025-10-10 13:39:12",
+    "total_registros": 143,
+    "observacao_oxidacao": "Baseado na última inspeção de cada turbina"
   }
 }

@@ -1,0 +1,453 @@
+{
+  "maquinas_paradas": [
+    {
+      "Data da Parada": "02/04/2024",
+      "Tag da Turbina": "AEG-33",
+      "Data de Retorno": "08/08/2024",
+      "Dias Parada": 128,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "02/04/2024",
+      "Tag da Turbina": "AEG-45",
+      "Data de Retorno": "15/10/2024",
+      "Dias Parada": 196,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "09/04/2024",
+      "Tag da Turbina": "AEG-29",
+      "Data de Retorno": "28/10/2024",
+      "Dias Parada": 202,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "26/04/2024",
+      "Tag da Turbina": "AEG-06",
+      "Data de Retorno": "03/10/2024",
+      "Dias Parada": 111,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "26/04/2024",
+      "Tag da Turbina": "AEG-35",
+      "Data de Retorno": "03/10/2024",
+      "Dias Parada": 160,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "03/05/2024",
+      "Tag da Turbina": "AEG-36",
+      "Data de Retorno": "23/09/2024",
+      "Dias Parada": 143,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "08/05/2024",
+      "Tag da Turbina": "AEG-16",
+      "Data de Retorno": "05/07/2024",
+      "Dias Parada": 58,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "13/05/2024",
+      "Tag da Turbina": "AEG-05",
+      "Data de Retorno": "01/11/2024",
+      "Dias Parada": 172,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "17/05/2024",
+      "Tag da Turbina": "AEG-34",
+      "Data de Retorno": "29/06/2024",
+      "Dias Parada": 43,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "21/05/2024",
+      "Tag da Turbina": "AEG-46",
+      "Data de Retorno": "29/06/2024",
+      "Dias Parada": 24,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "28/05/2024",
+      "Tag da Turbina": "AEG-15",
+      "Data de Retorno": "22/06/2024",
+      "Dias Parada": 25,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "31/05/2024",
+      "Tag da Turbina": "AEG-09",
+      "Data de Retorno": "17/06/2024",
+      "Dias Parada": 17,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "03/06/2024",
+      "Tag da Turbina": "AEG-11",
+      "Data de Retorno": "18/06/2024",
+      "Dias Parada": 15,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "04/06/2024",
+      "Tag da Turbina": "AEG-13",
+      "Data de Retorno": "25/06/2024",
+      "Dias Parada": 21,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "05/06/2024",
+      "Tag da Turbina": "AEG-24",
+      "Data de Retorno": "20/06/2024",
+      "Dias Parada": 15,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "05/06/2024",
+      "Tag da Turbina": "AEG-26",
+      "Data de Retorno": "15/06/2024",
+      "Dias Parada": 10,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "10/06/2024",
+      "Tag da Turbina": "AEG-07",
+      "Data de Retorno": "26/06/2024",
+      "Dias Parada": 16,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "11/06/2024",
+      "Tag da Turbina": "AEG-44",
+      "Data de Retorno": "19/06/2024",
+      "Dias Parada": 8,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "21/06/2024",
+      "Tag da Turbina": "AEG-28",
+      "Data de Retorno": "02/07/2024",
+      "Dias Parada": 11,
+      "Ciclo": "Primeiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "09/12/2024",
+      "Tag da Turbina": "AEG-31",
+      "Data de Retorno": "10/12/2024",
+      "Dias Parada": 1,
+      "Ciclo": "Segundo Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "20/03/2025",
+      "Tag da Turbina": "AEG-36",
+      "Data de Retorno": "21/03/2025",
+      "Dias Parada": 1,
+      "Ciclo": "Terceiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "02/04/2025",
+      "Tag da Turbina": "AEG-05",
+      "Data de Retorno": "03/04/2025",
+      "Dias Parada": 1,
+      "Ciclo": "Terceiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "11/04/2025",
+      "Tag da Turbina": "AEG-35",
+      "Data de Retorno": "17/04/2025",
+      "Dias Parada": 6,
+      "Ciclo": "Terceiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "23/04/2025",
+      "Tag da Turbina": "AEG-39",
+      "Data de Retorno": "025/04/2025",
+      "Dias Parada": 2,
+      "Ciclo": "Terceiro Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "15/07/2024",
+      "Tag da Turbina": "AEG-25",
+      "Data de Retorno": "27/07/2024",
+      "Dias Parada": 12,
+      "Ciclo": "Troca de Spindle",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "24/10/2024",
+      "Tag da Turbina": "AEG-08",
+      "Data de Retorno": "28/11/2024",
+      "Dias Parada": 35,
+      "Ciclo": "Troca de Spindle",
+      "Status": "Fora de Operação"
+    },
+    {
+      "Data da Parada": "26/11/2024",
+      "Tag da Turbina": "AEG-44",
+      "Data de Retorno": "17/12/2025",
+      "Dias Parada": 21,
+      "Ciclo": "Troca de Spindle",
+      "Status": "Fora de Operação"
+    }
+  ],
+  "resumo_por_ciclo": {
+    "primeiro_ciclo": 19,
+    "segundo_ciclo": 1,
+    "terceiro_ciclo": 4,
+    "troca_spindle": 3,
+    "total_geral": 27
+  },
+  "detalhes_por_ciclo": {
+    "primeiro_ciclo": [
+      {
+        "Data da Parada": "02/04/2024",
+        "Tag da Turbina": "AEG-33",
+        "Data de Retorno": "31/07/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "02/04/2024",
+        "Tag da Turbina": "AEG-45",
+        "Data de Retorno": "31/07/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "09/04/2024",
+        "Tag da Turbina": "AEG-29",
+        "Data de Retorno": "07/08/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "26/04/2024",
+        "Tag da Turbina": "AEG-06",
+        "Data de Retorno": "24/08/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "26/04/2024",
+        "Tag da Turbina": "AEG-35",
+        "Data de Retorno": "24/08/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "03/05/2024",
+        "Tag da Turbina": "AEG-36",
+        "Data de Retorno": "31/08/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "08/05/2024",
+        "Tag da Turbina": "AEG-16",
+        "Data de Retorno": "05/09/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "13/05/2024",
+        "Tag da Turbina": "AEG-05",
+        "Data de Retorno": "10/09/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "17/05/2024",
+        "Tag da Turbina": "AEG-34",
+        "Data de Retorno": "14/09/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "21/05/2024",
+        "Tag da Turbina": "AEG-46",
+        "Data de Retorno": "18/09/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "28/05/2024",
+        "Tag da Turbina": "AEG-15",
+        "Data de Retorno": "25/09/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "31/05/2024",
+        "Tag da Turbina": "AEG-09",
+        "Data de Retorno": "28/09/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "03/06/2024",
+        "Tag da Turbina": "AEG-11",
+        "Data de Retorno": "01/10/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "04/06/2024",
+        "Tag da Turbina": "AEG-13",
+        "Data de Retorno": "02/10/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "05/06/2024",
+        "Tag da Turbina": "AEG-24",
+        "Data de Retorno": "03/10/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "05/06/2024",
+        "Tag da Turbina": "AEG-26",
+        "Data de Retorno": "03/10/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "10/06/2024",
+        "Tag da Turbina": "AEG-07",
+        "Data de Retorno": "08/10/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "11/06/2024",
+        "Tag da Turbina": "AEG-44",
+        "Data de Retorno": "09/10/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "21/06/2024",
+        "Tag da Turbina": "AEG-28",
+        "Data de Retorno": "19/10/2024",
+        "Dias Parada": 120,
+        "Ciclo": "Primeiro Ciclo",
+        "Status": "Fora de Operação"
+      }
+    ],
+    "segundo_ciclo": [
+      {
+        "Data da Parada": "09/12/2024",
+        "Tag da Turbina": "AEG-31",
+        "Data de Retorno": "09/03/2025",
+        "Dias Parada": 90,
+        "Ciclo": "Segundo Ciclo",
+        "Status": "Fora de Operação"
+      }
+    ],
+    "terceiro_ciclo": [
+      {
+        "Data da Parada": "20/03/2025",
+        "Tag da Turbina": "AEG-36",
+        "Data de Retorno": "03/06/2025",
+        "Dias Parada": 75,
+        "Ciclo": "Terceiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "02/04/2025",
+        "Tag da Turbina": "AEG-05",
+        "Data de Retorno": "16/06/2025",
+        "Dias Parada": 75,
+        "Ciclo": "Terceiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "11/04/2025",
+        "Tag da Turbina": "AEG-35",
+        "Data de Retorno": "25/06/2025",
+        "Dias Parada": 75,
+        "Ciclo": "Terceiro Ciclo",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "23/04/2025",
+        "Tag da Turbina": "AEG-39",
+        "Data de Retorno": "07/07/2025",
+        "Dias Parada": 75,
+        "Ciclo": "Terceiro Ciclo",
+        "Status": "Fora de Operação"
+      }
+    ],
+    "troca_spindle": [
+      {
+        "Data da Parada": "15/07/2024",
+        "Tag da Turbina": "AEG-25",
+        "Data de Retorno": "13/09/2024",
+        "Dias Parada": 60,
+        "Ciclo": "Troca de Spindle",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "24/10/2024",
+        "Tag da Turbina": "AEG-08",
+        "Data de Retorno": "23/12/2024",
+        "Dias Parada": 60,
+        "Ciclo": "Troca de Spindle",
+        "Status": "Fora de Operação"
+      },
+      {
+        "Data da Parada": "26/11/2024",
+        "Tag da Turbina": "AEG-44",
+        "Data de Retorno": "25/01/2025",
+        "Dias Parada": 60,
+        "Ciclo": "Troca de Spindle",
+        "Status": "Fora de Operação"
+      }
+    ]
+  }
+}
