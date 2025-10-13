@@ -456,7 +456,7 @@ function App() {
             </div>
             <div>
               <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                Dashboard - Análise de Ímãs
+                Dashboard - Análise de troca dos Ímãs dos Geradores.
               </h1>
               <p className="text-lg text-gray-600 font-medium">Complexo Eólico Santo Inácio • {data.resumo.periodo_analise}</p>
             </div>
