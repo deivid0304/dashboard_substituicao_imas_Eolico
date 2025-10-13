@@ -836,7 +836,7 @@ function App() {
                       <BarChart3 className="h-5 w-5 text-green-600" />
                       Comparação de Oxidações entre Ciclos
                     </CardTitle>
-                    <CardDescription>Distribuição percentual dos níveis de oxidação em cada ciclo</CardDescription>
+                    <CardDescription>Distribuição dos níveis de oxidação em cada ciclo (valores absolutos)</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ResponsiveContainer width="100%" height={400}>
@@ -847,31 +847,31 @@ function App() {
                         <Tooltip
                           formatter={(value, name) => {
                             const labels = {
-                              'Percentual_Baixa': 'Baixa',
-                              'Percentual_Media': 'Média',
-                              'Percentual_Alta': 'Alta'
+                              'Oxidacao_Baixa': 'Baixa',
+                              'Oxidacao_Media': 'Média',
+                              'Oxidacao_Alta': 'Alta'
                             };
-                            return [`${value}%`, labels[name] || name];
+                            return [value, labels[name] || name];
                           }}
                         />
                         <Legend
                           formatter={(value) => {
                             const labels = {
-                              'Percentual_Baixa': 'Baixa',
-                              'Percentual_Media': 'Média',
-                              'Percentual_Alta': 'Alta'
+                              'Oxidacao_Baixa': 'Baixa',
+                              'Oxidacao_Media': 'Média',
+                              'Oxidacao_Alta': 'Alta'
                             };
                             return labels[value] || value;
                           }}
                         />
-                        <Bar dataKey="Percentual_Baixa" stackId="a" fill="#10b981" name="Percentual_Baixa">
-                          <LabelList dataKey="Percentual_Baixa" position="inside" fill="white" fontSize={12} fontWeight="bold" formatter={(value) => value > 0 ? `${value}%` : ''} />
+                        <Bar dataKey="Oxidacao_Baixa" stackId="a" fill="#10b981" name="Oxidacao_Baixa">
+                          <LabelList dataKey="Oxidacao_Baixa" position="inside" fill="white" fontSize={12} fontWeight="bold" formatter={(value) => value > 0 ? `${value}` : ''} />
                         </Bar>
-                        <Bar dataKey="Percentual_Media" stackId="a" fill="#f59e0b" name="Percentual_Media">
-                          <LabelList dataKey="Percentual_Media" position="inside" fill="white" fontSize={12} fontWeight="bold" formatter={(value) => value > 0 ? `${value}%` : ''} />
+                        <Bar dataKey="Oxidacao_Media" stackId="a" fill="#f59e0b" name="Oxidacao_Media">
+                          <LabelList dataKey="Oxidacao_Media" position="inside" fill="white" fontSize={12} fontWeight="bold" formatter={(value) => value > 0 ? `${value}` : ''} />
                         </Bar>
-                        <Bar dataKey="Percentual_Alta" stackId="a" fill="#ef4444" name="Percentual_Alta">
-                          <LabelList dataKey="Percentual_Alta" position="inside" fill="white" fontSize={12} fontWeight="bold" formatter={(value) => value > 0 ? `${value}%` : ''} />
+                        <Bar dataKey="Oxidacao_Alta" stackId="a" fill="#ef4444" name="Oxidacao_Alta">
+                          <LabelList dataKey="Oxidacao_Alta" position="inside" fill="white" fontSize={12} fontWeight="bold" formatter={(value) => value > 0 ? `${value}` : ''} />
                         </Bar>
                       </BarChart>
                     </ResponsiveContainer>
