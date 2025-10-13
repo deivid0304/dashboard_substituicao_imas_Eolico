@@ -584,66 +584,6 @@ function App() {
                   </CardContent>
                 </Card>
               </div>
-
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                <Card className="bg-white/80 backdrop-blur-sm border-0 shadow-xl rounded-3xl overflow-hidden">
-                  <CardHeader className="pb-4">
-                    <CardTitle className="flex items-center gap-2 text-xl">
-                      <Calendar className="h-5 w-5 text-purple-600" />
-                      Dias de Parada por Ciclo
-                    </CardTitle>
-                    <CardDescription>Tempo médio de parada por ciclo de inspeção</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <ResponsiveContainer width="100%" height={300}>
-                      <BarChart data={macroData} margin={{ top: 20, right: 20, left: 0, bottom: 20 }}>
-                        <defs>
-                          <linearGradient id="colorDias" x1="0" y1="0" x2="0" y2="1">
-                            <stop offset="0%" stopColor="#8b5cf6" stopOpacity={0.8} />
-                            <stop offset="100%" stopColor="#7c3aed" stopOpacity={0.8} />
-                          </linearGradient>
-                        </defs>
-                        <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
-                        <XAxis dataKey="ciclo" tick={{ fill: '#6b7280' }} axisLine={false} />
-                        <YAxis tick={{ fill: '#6b7280' }} axisLine={false} />
-                        <Tooltip content={<CustomTooltip />} />
-                        <Bar dataKey="dias_parada" fill="url(#colorDias)" radius={[8, 8, 0, 0]}>
-                          <LabelList dataKey="dias_parada" position="top" formatter={(value) => value.toFixed(1)} style={{ fill: '#374151', fontWeight: 'bold', fontSize: '14px' }} />
-                        </Bar>
-                      </BarChart>
-                    </ResponsiveContainer>
-                  </CardContent>
-                </Card>
-
-                <Card className="bg-white/80 backdrop-blur-sm border-0 shadow-xl rounded-3xl overflow-hidden">
-                  <CardHeader className="pb-4">
-                    <CardTitle className="flex items-center gap-2 text-xl">
-                      <Activity className="h-5 w-5 text-red-600" />
-                      Turbinas por Ciclo / Troca de Spindle
-                    </CardTitle>
-                    <CardDescription>Quantidade de Turbinas Inspecionadas por atividade.</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <ResponsiveContainer width="100%" height={300}>
-                      <BarChart data={oxidacaoData} margin={{ top: 20, right: 20, left: 0, bottom: 20 }}>
-                        <defs>
-                          <linearGradient id="colorTotalOxidacao" x1="0" y1="0" x2="0" y2="1">
-                            <stop offset="0%" stopColor="#ef4444" stopOpacity={0.8} />
-                            <stop offset="100%" stopColor="#dc2626" stopOpacity={0.8} />
-                          </linearGradient>
-                        </defs>
-                        <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
-                        <XAxis dataKey="ciclo" tick={{ fill: '#6b7280' }} axisLine={false} />
-                        <YAxis tick={{ fill: '#6b7280' }} axisLine={false} />
-                        <Tooltip content={<CustomTooltip />} />
-                        <Bar dataKey="total" fill="url(#colorTotalOxidacao)" radius={[4, 4, 0, 0]}>
-                          <LabelList dataKey="total" position="top" style={{ fill: '#374151', fontWeight: 'bold', fontSize: '12px' }} />
-                        </Bar>
-                      </BarChart>
-                    </ResponsiveContainer>
-                  </CardContent>
-                </Card>
-              </div>
             </motion.div>
           )}
 
@@ -724,57 +664,6 @@ function App() {
                         <Tooltip content={<CustomTooltip />} />
                         <Bar dataKey="dias_parada" fill="url(#colorDiasAcumulados)" radius={[4, 4, 0, 0]}>
                           <LabelList dataKey="dias_parada" position="top" style={{ fill: '#374151', fontWeight: 'bold', fontSize: '12px' }} />
-                        </Bar>
-                      </BarChart>
-                    </ResponsiveContainer>
-                  </CardContent>
-                </Card>
-              </div>
-
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                {/* GRÁFICO 2: COMPARAÇÃO ENTRE CICLOS */}
-                <Card className="bg-white/80 backdrop-blur-sm border-0 shadow-xl rounded-3xl overflow-hidden">
-                  <CardHeader className="pb-4">
-                    <CardTitle className="flex items-center gap-2 text-xl">
-                      <BarChart3 className="h-5 w-5 text-green-600" />
-                      Comparação de Oxidações entre Ciclos
-                    </CardTitle>
-                    <CardDescription>Distribuição percentual dos níveis de oxidação em cada ciclo</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <ResponsiveContainer width="100%" height={400}>
-                      <BarChart data={data?.oxidacao_temporal?.variacao_entre_ciclos || []}>
-                        <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
-                        <XAxis dataKey="Ciclo" tick={{ fill: '#6b7280' }} axisLine={false} />
-                        <YAxis tick={{ fill: '#6b7280' }} axisLine={false} />
-                        <Tooltip
-                          formatter={(value, name) => {
-                            const labels = {
-                              'Percentual_Baixa': 'Baixa',
-                              'Percentual_Media': 'Média',
-                              'Percentual_Alta': 'Alta'
-                            };
-                            return [`${value}%`, labels[name] || name];
-                          }}
-                        />
-                        <Legend
-                          formatter={(value) => {
-                            const labels = {
-                              'Percentual_Baixa': 'Baixa',
-                              'Percentual_Media': 'Média',
-                              'Percentual_Alta': 'Alta'
-                            };
-                            return labels[value] || value;
-                          }}
-                        />
-                        <Bar dataKey="Percentual_Baixa" stackId="a" fill="#10b981" name="Percentual_Baixa">
-                          <LabelList dataKey="Percentual_Baixa" position="inside" fill="white" fontSize={12} fontWeight="bold" formatter={(value) => value > 0 ? `${value}%` : ''} />
-                        </Bar>
-                        <Bar dataKey="Percentual_Media" stackId="a" fill="#f59e0b" name="Percentual_Media">
-                          <LabelList dataKey="Percentual_Media" position="inside" fill="white" fontSize={12} fontWeight="bold" formatter={(value) => value > 0 ? `${value}%` : ''} />
-                        </Bar>
-                        <Bar dataKey="Percentual_Alta" stackId="a" fill="#ef4444" name="Percentual_Alta">
-                          <LabelList dataKey="Percentual_Alta" position="inside" fill="white" fontSize={12} fontWeight="bold" formatter={(value) => value > 0 ? `${value}%` : ''} />
                         </Bar>
                       </BarChart>
                     </ResponsiveContainer>
@@ -940,59 +829,49 @@ function App() {
                   </CardContent>
                 </Card>
 
+                {/* GRÁFICO 2: COMPARAÇÃO ENTRE CICLOS */}
                 <Card className="bg-white/80 backdrop-blur-sm border-0 shadow-xl rounded-3xl overflow-hidden">
                   <CardHeader className="pb-4">
                     <CardTitle className="flex items-center gap-2 text-xl">
-                      <Cpu className="h-5 w-5 text-orange-600" />
-                      Turbinas Paradas por Mês
+                      <BarChart3 className="h-5 w-5 text-green-600" />
+                      Comparação de Oxidações entre Ciclos
                     </CardTitle>
-                    <CardDescription>
-                      Evolução mensal das paradas de turbinas
-                    </CardDescription>
+                    <CardDescription>Distribuição percentual dos níveis de oxidação em cada ciclo</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ResponsiveContainer width="100%" height={400}>
-                      <BarChart
-                        data={temporalData}
-                        margin={{ top: 20, right: 20, left: 0, bottom: 60 }}
-                      >
-                        <defs>
-                          <linearGradient id="colorTurbinasParadas" x1="0" y1="0" x2="0" y2="1">
-                            <stop offset="0%" stopColor="#f59e0b" stopOpacity={0.8} />
-                            <stop offset="100%" stopColor="#d97706" stopOpacity={0.8} />
-                          </linearGradient>
-                        </defs>
-
+                      <BarChart data={data?.oxidacao_temporal?.variacao_entre_ciclos || []}>
                         <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
-
-                        {/* Eixo X ajustado */}
-                        <XAxis
-                          dataKey="mes"
-                          tick={{ fill: '#6b7280', fontSize: 12 }}
-                          axisLine={false}
-                          angle={-35}
-                          textAnchor="end"
-                          interval={0}
-                          height={70}
-                        />
-
+                        <XAxis dataKey="Ciclo" tick={{ fill: '#6b7280' }} axisLine={false} />
                         <YAxis tick={{ fill: '#6b7280' }} axisLine={false} />
-                        <Tooltip content={<CustomTooltip />} />
-
-                        <Bar
-                          dataKey="turbinas_unicas"
-                          fill="url(#colorTurbinasParadas)"
-                          radius={[4, 4, 0, 0]}
-                        >
-                          <LabelList
-                            dataKey="turbinas_unicas"
-                            position="top"
-                            style={{
-                              fill: '#374151',
-                              fontWeight: 'bold',
-                              fontSize: '12px',
-                            }}
-                          />
+                        <Tooltip
+                          formatter={(value, name) => {
+                            const labels = {
+                              'Percentual_Baixa': 'Baixa',
+                              'Percentual_Media': 'Média',
+                              'Percentual_Alta': 'Alta'
+                            };
+                            return [`${value}%`, labels[name] || name];
+                          }}
+                        />
+                        <Legend
+                          formatter={(value) => {
+                            const labels = {
+                              'Percentual_Baixa': 'Baixa',
+                              'Percentual_Media': 'Média',
+                              'Percentual_Alta': 'Alta'
+                            };
+                            return labels[value] || value;
+                          }}
+                        />
+                        <Bar dataKey="Percentual_Baixa" stackId="a" fill="#10b981" name="Percentual_Baixa">
+                          <LabelList dataKey="Percentual_Baixa" position="inside" fill="white" fontSize={12} fontWeight="bold" formatter={(value) => value > 0 ? `${value}%` : ''} />
+                        </Bar>
+                        <Bar dataKey="Percentual_Media" stackId="a" fill="#f59e0b" name="Percentual_Media">
+                          <LabelList dataKey="Percentual_Media" position="inside" fill="white" fontSize={12} fontWeight="bold" formatter={(value) => value > 0 ? `${value}%` : ''} />
+                        </Bar>
+                        <Bar dataKey="Percentual_Alta" stackId="a" fill="#ef4444" name="Percentual_Alta">
+                          <LabelList dataKey="Percentual_Alta" position="inside" fill="white" fontSize={12} fontWeight="bold" formatter={(value) => value > 0 ? `${value}%` : ''} />
                         </Bar>
                       </BarChart>
                     </ResponsiveContainer>
