@@ -490,7 +490,7 @@ function App() {
                 {[
                   { title: "Total de Turbinas", value: data.resumo.total_turbinas, icon: Wind, color: "blue", desc: "Complexo eólico" },
                   { title: "Total Ímãs Trocados", value: data.resumo.total_imas_trocados, icon: TrendingUp, color: "green", desc: "Período completo" },
-                  { title: "Total Oxidações", value: data.resumo.total_oxidacao, icon: AlertTriangle, color: "orange", desc: "Todas as inspeções" },
+                  { title: "Qtd. Turbinas com Oxidações", value: data.resumo.total_oxidacao, icon: AlertTriangle, color: "orange", desc: "Todas as inspeções" },
                   { title: "Total Carreiras", value: data.resumo.total_carreiras, icon: MapPin, color: "purple", desc: "Carreiras com substituição" }
                 ].map((item, index) => (
                   <motion.div key={item.title} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: index * 0.1 }}>
