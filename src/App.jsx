@@ -891,6 +891,7 @@ function App() {
                   { title: "1º Ciclo", value: resumoCiclos.primeiro_ciclo || 0, icon: AlertTriangle, color: "red", desc: "Paradas primeiro ciclo" },
                   { title: "2º Ciclo", value: resumoCiclos.segundo_ciclo || 0, icon: AlertTriangle, color: "red", desc: "Paradas segundo ciclo" },
                   { title: "3º Ciclo", value: resumoCiclos.terceiro_ciclo || 0, icon: AlertTriangle, color: "red", desc: "Paradas terceiro ciclo" },
+                  { title: "4º Ciclo", value: resumoCiclos.Quarto_ciclo || 0, icon: AlertTriangle, color: "red", desc: "Paradas Quarto ciclo" },
                   { title: "Troca de Spindle", value: resumoCiclos.troca_spindle || 0, icon: AlertTriangle, color: "red", desc: "Paradas Troca de Spindle" }
                 ].map((item, index) => (
                   <motion.div key={item.title} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: index * 0.1 }}>
