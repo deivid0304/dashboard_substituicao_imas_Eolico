@@ -37,7 +37,7 @@ def encontrar_coluna(df, padroes):
 # -----------------------------
 try:
     df = pd.read_excel(
-        "C:/Users/de.ferreira/OneDrive - VOLTALIA/09 - Arquivos WEG/11 - Analises SCADA/Projetos Imas e Callipers/dashboard_substituicao_imas_Eolico/Analise de Imas trocados.xlsx",
+        "C:/Users/de.ferreira/Desktop/dashboard_substituicao_imas_Eolico/Analise de Imas trocados.xlsx",
         sheet_name="Dados_Brutos"
     )
     
@@ -581,7 +581,7 @@ maquinas_paradas_json = {
 # -----------------------------
 try:
     # Usar o mesmo assets_path do seu código original
-    assets_path = r"C:/Users/de.ferreira/OneDrive - VOLTALIA/09 - Arquivos WEG/11 - Analises SCADA/Projetos Imas e Callipers/dashboard_substituicao_imas_Eolico/src/assets"
+    assets_path = r"C:/Users/de.ferreira/Desktop/dashboard_substituicao_imas_Eolico/src/assets"
     
     if not os.path.exists(assets_path):
         os.makedirs(assets_path)
@@ -1099,7 +1099,7 @@ print(f"   - variacao_entre_ciclos: {len(oxidacao_temporal_json['variacao_entre_
 # -----------------------------
 # SALVAR ARQUIVOS
 # -----------------------------
-assets_path = r"C:/Users/de.ferreira/OneDrive - VOLTALIA/09 - Arquivos WEG/11 - Analises SCADA/Projetos Imas e Callipers/dashboard-imas-eolicos_planilha_nova/src/assets"
+assets_path = r"C:/Users/de.ferreira/Desktop/dashboard_substituicao_imas_Eolico/src/assets"
 
 try:
     if not os.path.exists(assets_path):
