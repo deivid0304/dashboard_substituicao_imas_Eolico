@@ -80,6 +80,16 @@
         "Total_Registros": 9,
         "Total_Oxidacao": 9,
         "Percentual_Oxidacao": 100.0
+      },
+      {
+        "Ciclo": "Quarto Ciclo",
+        "Mes_Ano": "2025-11",
+        "Oxidacao_Baixa": 2,
+        "Oxidacao_Media": 0,
+        "Oxidacao_Alta": 0,
+        "Total_Registros": 2,
+        "Total_Oxidacao": 2,
+        "Percentual_Oxidacao": 100.0
       }
     ],
     "variacao_entre_ciclos": [
@@ -121,6 +131,19 @@
         "Percentual_Baixa": 72.34,
         "Percentual_Media": 17.02,
         "Percentual_Alta": 10.64
+      },
+      {
+        "Ciclo": "Quarto Ciclo",
+        "Oxidacao_Baixa": 2,
+        "Oxidacao_Media": 0,
+        "Oxidacao_Alta": 0,
+        "Troca_Spindle": 0,
+        "Total_Registros": 2,
+        "Total_Oxidacao": 2,
+        "Percentual_Oxidacao": 100.0,
+        "Percentual_Baixa": 100.0,
+        "Percentual_Media": 0.0,
+        "Percentual_Alta": 0.0
       }
     ]
   },
@@ -151,6 +174,15 @@
       "Criticidade_Media": 7,
       "Criticidade_Alta": 1,
       "Dias_Parada_Medio": 0.21
+    },
+    {
+      "Ciclo": "Quarto Ciclo",
+      "Maquinas_Paradas": 1,
+      "Imas_Trocados": 20.0,
+      "Criticidade_Baixa": 2,
+      "Criticidade_Media": 0,
+      "Criticidade_Alta": 0,
+      "Dias_Parada_Medio": 0.5
     },
     {
       "Ciclo": "Troca de Spindle",
@@ -188,6 +220,15 @@
       "Oxidacao_Alta": 5,
       "Total_Registros": 47,
       "Total_Oxidacao": 47,
+      "Percentual_Com_Oxidacao": 100.0
+    },
+    {
+      "Ciclo_Inspecao": "Quarto Ciclo",
+      "Oxidacao_Baixa": 2,
+      "Oxidacao_Media": 0,
+      "Oxidacao_Alta": 0,
+      "Total_Registros": 2,
+      "Total_Oxidacao": 2,
       "Percentual_Com_Oxidacao": 100.0
     },
     {
@@ -809,15 +850,15 @@
   "resumo": {
     "total_imas_trocados": 1746.0,
     "total_turbinas": 47,
-    "total_criticidade": 146,
-    "total_maquinas_paradas": 30,
+    "total_criticidade": 148,
+    "total_maquinas_paradas": 31,
     "total_carreiras": 0,
     "total_oxidacao_baixa": 36,
     "total_oxidacao_media": 7,
     "total_oxidacao_alta": 4,
     "total_oxidacao": 47,
     "periodo_analise": "2024-04 a 2025-11",
-    "data_ultima_atualizacao": "2025-11-10 13:55:29",
+    "data_ultima_atualizacao": "2025-11-10 14:11:20",
     "total_registros": 148,
     "observacao_oxidacao": "Baseado na última inspeção de cada turbina"
   }

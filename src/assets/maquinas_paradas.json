@@ -193,6 +193,14 @@
       "Status": "Fora de Operação"
     },
     {
+      "Data da Parada": "05/11/2025",
+      "Tag da Turbina": "AEG-45",
+      "Data de Retorno": "05/12/2025",
+      "Dias Parada": 30,
+      "Ciclo": "Quarto Ciclo",
+      "Status": "Fora de Operação"
+    },
+    {
       "Data da Parada": "15/07/2024",
       "Tag da Turbina": "AEG-25",
       "Data de Retorno": "13/09/2024",
@@ -245,8 +253,9 @@
     "primeiro_ciclo": 19,
     "segundo_ciclo": 1,
     "terceiro_ciclo": 4,
+    "Quarto_ciclo": 0,
     "troca_spindle": 6,
-    "total_geral": 30
+    "total_geral": 31
   },
   "detalhes_por_ciclo": {
     "primeiro_ciclo": [
@@ -447,6 +456,7 @@
         "Status": "Fora de Operação"
       }
     ],
+    "Quarto_ciclo": [],
     "troca_spindle": [
       {
         "Data da Parada": "15/07/2024",

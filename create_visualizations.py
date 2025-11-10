@@ -147,7 +147,7 @@ if all(col in df_clean.columns for col in ['DOWNWIND', 'UPWIND', 'Ciclo_inspecao
     print("✅ Colunas DOWNWIND/UPWIND encontradas para análise de oxidação")
     
     # Ciclos para análise
-    ciclos_analise = ['Primeiro Ciclo', 'Segundo Ciclo', 'Terceiro Ciclo', 'Troca de Spindle']
+    ciclos_analise = ['Primeiro Ciclo', 'Segundo Ciclo', 'Terceiro Ciclo', 'Quarto Ciclo', 'Troca de Spindle']
     
     oxidacao_data = []
     
@@ -219,7 +219,7 @@ if all(col in df_clean.columns for col in ['DOWNWIND', 'UPWIND', 'Ciclo_inspecao
 else:
     print("❌ Colunas DOWNWIND/UPWIND não encontradas para análise de oxidação")
     oxidacao_df = pd.DataFrame({
-        "Ciclo_Inspecao": ['Primeiro Ciclo', 'Segundo Ciclo', 'Terceiro Ciclo', 'Troca de Spindle'],
+        "Ciclo_Inspecao": ['Primeiro Ciclo', 'Segundo Ciclo', 'Terceiro Ciclo', 'Quarto Ciclo', 'Troca de Spindle'],
         "Oxidacao_Baixa": [0, 0, 0, 0],
         "Oxidacao_Media": [0, 0, 0, 0],
         "Oxidacao_Alta": [0, 0, 0, 0],
@@ -240,7 +240,7 @@ if all(col in df_clean.columns for col in ['DOWNWIND', 'UPWIND', 'Ciclo_inspecao
     df_clean['Mes_Ano'] = df_clean['Data_inspecao'].dt.to_period('M')
     
     # Ciclos para análise
-    ciclos_analise = ['Primeiro Ciclo', 'Segundo Ciclo', 'Terceiro Ciclo']
+    ciclos_analise = ['Primeiro Ciclo', 'Segundo Ciclo', 'Terceiro Ciclo', 'Quarto Ciclo']
     
     # Dados temporais por ciclo
     oxidacao_temporal_data = []
@@ -459,7 +459,7 @@ if all(col in df_clean.columns for col in ['Data_inspecao', 'Turbina', 'Ciclo_in
     print("✅ Colunas necessárias encontradas para análise de máquinas paradas")
     
     # Ciclos para análise
-    ciclos_analise = ['Primeiro Ciclo', 'Segundo Ciclo', 'Terceiro Ciclo', 'Troca de Spindle']
+    ciclos_analise = ['Primeiro Ciclo', 'Segundo Ciclo', 'Terceiro Ciclo', 'Quarto Ciclo', 'Troca de Spindle']
     
     maquinas_paradas_data = []
     
@@ -560,6 +560,7 @@ maquinas_por_ciclo = {
     "primeiro_ciclo": [m for m in maquinas_paradas_formatadas if m["Ciclo"] == "Primeiro Ciclo"],
     "segundo_ciclo": [m for m in maquinas_paradas_formatadas if m["Ciclo"] == "Segundo Ciclo"],
     "terceiro_ciclo": [m for m in maquinas_paradas_formatadas if m["Ciclo"] == "Terceiro Ciclo"],
+    "Quarto_ciclo": [m for m in maquinas_paradas_formatadas if m["Ciclo"] == "Quarto_ciclo"],
     "troca_spindle": [m for m in maquinas_paradas_formatadas if m["Ciclo"] == "Troca de Spindle"]
 }
 
@@ -570,6 +571,7 @@ maquinas_paradas_json = {
         "primeiro_ciclo": len(maquinas_por_ciclo["primeiro_ciclo"]),
         "segundo_ciclo": len(maquinas_por_ciclo["segundo_ciclo"]),
         "terceiro_ciclo": len(maquinas_por_ciclo["terceiro_ciclo"]),
+        "Quarto_ciclo": len(maquinas_por_ciclo["Quarto_ciclo"]),
         "troca_spindle": len(maquinas_por_ciclo["troca_spindle"]),
         "total_geral": len(maquinas_paradas_formatadas)
     },
@@ -610,7 +612,7 @@ print("/n" + "="*60)
 print("📋 RELATÓRIO DE MÁQUINAS PARADAS POR CICLO")
 print("="*60)
 
-for ciclo in ['Primeiro Ciclo', 'Segundo Ciclo', 'Terceiro Ciclo', 'Troca de Spindle']:
+for ciclo in ['Primeiro Ciclo', 'Segundo Ciclo', 'Terceiro Ciclo', 'Quarto Ciclo', 'Troca de Spindle']:
     quantidade = len([m for m in maquinas_paradas_formatadas if m["Ciclo"] == ciclo])
     print(f"📊 {ciclo}: {quantidade} máquinas paradas")
 
@@ -730,7 +732,7 @@ if all(col in df_clean.columns for col in ['DOWNWIND', 'UPWIND', 'Ciclo_inspecao
     print("✅ Colunas DOWNWIND/UPWIND encontradas para análise de criticidade")
     
     # Ciclos para análise
-    ciclos_analise = ['Primeiro Ciclo', 'Segundo Ciclo', 'Terceiro Ciclo', 'Troca de Spindle']
+    ciclos_analise = ['Primeiro Ciclo', 'Segundo Ciclo', 'Terceiro Ciclo', 'Quarto Ciclo', 'Troca de Spindle']
     
     ciclos_data = []
     
