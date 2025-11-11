@@ -634,7 +634,7 @@ print("/n🔍 INICIANDO ANÁLISE MICRO - CARREIRAS...")
 try:
     # Carregar a aba Carreiras_Vertical
     df_carreiras = pd.read_excel(
-        "C:/Users/de.ferreira/OneDrive - VOLTALIA/09 - Arquivos WEG/11 - Analises SCADA/Projetos Imas e Callipers/dashboard_substituicao_imas_Eolico/Analise de Imas trocados.xlsx",
+        "C:/Users/de.ferreira/Desktop/dashboard_substituicao_imas_Eolico/Analise de Imas trocados.xlsx",
         sheet_name="Carreiras_Vertical"
     )
     
