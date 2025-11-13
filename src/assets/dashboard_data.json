@@ -84,11 +84,11 @@
       {
         "Ciclo": "Quarto Ciclo",
         "Mes_Ano": "2025-11",
-        "Oxidacao_Baixa": 2,
+        "Oxidacao_Baixa": 5,
         "Oxidacao_Media": 0,
         "Oxidacao_Alta": 0,
-        "Total_Registros": 2,
-        "Total_Oxidacao": 2,
+        "Total_Registros": 5,
+        "Total_Oxidacao": 5,
         "Percentual_Oxidacao": 100.0
       }
     ],
@@ -134,12 +134,12 @@
       },
       {
         "Ciclo": "Quarto Ciclo",
-        "Oxidacao_Baixa": 2,
+        "Oxidacao_Baixa": 5,
         "Oxidacao_Media": 0,
         "Oxidacao_Alta": 0,
         "Troca_Spindle": 0,
-        "Total_Registros": 2,
-        "Total_Oxidacao": 2,
+        "Total_Registros": 5,
+        "Total_Oxidacao": 5,
         "Percentual_Oxidacao": 100.0,
         "Percentual_Baixa": 100.0,
         "Percentual_Media": 0.0,
@@ -178,11 +178,11 @@
     {
       "Ciclo": "Quarto Ciclo",
       "Maquinas_Paradas": 1,
-      "Imas_Trocados": 20.0,
-      "Criticidade_Baixa": 2,
+      "Imas_Trocados": 40.0,
+      "Criticidade_Baixa": 5,
       "Criticidade_Media": 0,
       "Criticidade_Alta": 0,
-      "Dias_Parada_Medio": 0.5
+      "Dias_Parada_Medio": 0.2
     },
     {
       "Ciclo": "Troca de Spindle",
@@ -224,11 +224,11 @@
     },
     {
       "Ciclo_Inspecao": "Quarto Ciclo",
-      "Oxidacao_Baixa": 2,
+      "Oxidacao_Baixa": 5,
       "Oxidacao_Media": 0,
       "Oxidacao_Alta": 0,
-      "Total_Registros": 2,
-      "Total_Oxidacao": 2,
+      "Total_Registros": 5,
+      "Total_Oxidacao": 5,
       "Percentual_Com_Oxidacao": 100.0
     },
     {
@@ -293,7 +293,7 @@
       "Ultima_Inspecao": "2025-04-02",
       "Total_Inspecoes": 3,
       "Dias_Parada_Acumulados": 173.0,
-      "MTBF_Dias": 6.8375,
+      "MTBF_Dias": 6.8625,
       "MTTR_Dias": 2.1625,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -304,7 +304,7 @@
       "Ultima_Inspecao": "2024-11-28",
       "Total_Inspecoes": 2,
       "Dias_Parada_Acumulados": 111.0,
-      "MTBF_Dias": 28.2,
+      "MTBF_Dias": 28.3,
       "MTTR_Dias": 5.55,
       "Nivel_Risco": "🟨 MÉDIO RISCO"
     },
@@ -315,7 +315,7 @@
       "Ultima_Inspecao": "2024-11-28",
       "Total_Inspecoes": 2,
       "Dias_Parada_Acumulados": 16.0,
-      "MTBF_Dias": 17.3,
+      "MTBF_Dias": 17.366666666666667,
       "MTTR_Dias": 0.5333333333333333,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -326,7 +326,7 @@
       "Ultima_Inspecao": "2025-05-07",
       "Total_Inspecoes": 4,
       "Dias_Parada_Acumulados": 35.0,
-      "MTBF_Dias": 177.0,
+      "MTBF_Dias": 177.66666666666666,
       "MTTR_Dias": 11.666666666666666,
       "Nivel_Risco": "🟩 BAIXO RISCO"
     },
@@ -337,7 +337,7 @@
       "Ultima_Inspecao": "2025-07-24",
       "Total_Inspecoes": 4,
       "Dias_Parada_Acumulados": 33.0,
-      "MTBF_Dias": 25.19047619047619,
+      "MTBF_Dias": 25.285714285714285,
       "MTTR_Dias": 1.5714285714285714,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -359,7 +359,7 @@
       "Ultima_Inspecao": "2025-05-12",
       "Total_Inspecoes": 3,
       "Dias_Parada_Acumulados": 15.0,
-      "MTBF_Dias": 26.3,
+      "MTBF_Dias": 26.4,
       "MTTR_Dias": 0.75,
       "Nivel_Risco": "🟨 MÉDIO RISCO"
     },
@@ -381,7 +381,7 @@
       "Ultima_Inspecao": "2025-05-14",
       "Total_Inspecoes": 3,
       "Dias_Parada_Acumulados": 21.0,
-      "MTBF_Dias": 10.5,
+      "MTBF_Dias": 10.54,
       "MTTR_Dias": 0.42,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -403,7 +403,7 @@
       "Ultima_Inspecao": "2025-04-30",
       "Total_Inspecoes": 3,
       "Dias_Parada_Acumulados": 25.0,
-      "MTBF_Dias": 10.64,
+      "MTBF_Dias": 10.68,
       "MTTR_Dias": 0.5,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -414,7 +414,7 @@
       "Ultima_Inspecao": "2025-05-02",
       "Total_Inspecoes": 3,
       "Dias_Parada_Acumulados": 58.0,
-      "MTBF_Dias": 11.04,
+      "MTBF_Dias": 11.08,
       "MTTR_Dias": 1.16,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -488,8 +488,8 @@
       "Turbina": "AEG-23",
       "Total_Imas_Trocados": 0.0,
       "Primeira_Inspecao": "2024-06-07",
-      "Ultima_Inspecao": "2024-11-20",
-      "Total_Inspecoes": 2,
+      "Ultima_Inspecao": "2025-11-11",
+      "Total_Inspecoes": 3,
       "Dias_Parada_Acumulados": 0.0,
       "MTBF_Dias": 0.0,
       "MTTR_Dias": 0.0,
@@ -502,7 +502,7 @@
       "Ultima_Inspecao": "2024-12-04",
       "Total_Inspecoes": 2,
       "Dias_Parada_Acumulados": 15.0,
-      "MTBF_Dias": 13.1,
+      "MTBF_Dias": 13.15,
       "MTTR_Dias": 0.375,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -513,7 +513,7 @@
       "Ultima_Inspecao": "2025-03-26",
       "Total_Inspecoes": 3,
       "Dias_Parada_Acumulados": 12.0,
-      "MTBF_Dias": 15.125,
+      "MTBF_Dias": 15.1875,
       "MTTR_Dias": 0.375,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -524,7 +524,7 @@
       "Ultima_Inspecao": "2024-12-03",
       "Total_Inspecoes": 2,
       "Dias_Parada_Acumulados": 10.0,
-      "MTBF_Dias": 26.2,
+      "MTBF_Dias": 26.3,
       "MTTR_Dias": 0.5,
       "Nivel_Risco": "🟨 MÉDIO RISCO"
     },
@@ -532,8 +532,8 @@
       "Turbina": "AEG-27",
       "Total_Imas_Trocados": 0.0,
       "Primeira_Inspecao": "2024-06-06",
-      "Ultima_Inspecao": "2024-12-04",
-      "Total_Inspecoes": 2,
+      "Ultima_Inspecao": "2025-11-10",
+      "Total_Inspecoes": 3,
       "Dias_Parada_Acumulados": 0.0,
       "MTBF_Dias": 0.0,
       "MTTR_Dias": 0.0,
@@ -546,7 +546,7 @@
       "Ultima_Inspecao": "2024-12-13",
       "Total_Inspecoes": 2,
       "Dias_Parada_Acumulados": 11.0,
-      "MTBF_Dias": 10.16,
+      "MTBF_Dias": 10.2,
       "MTTR_Dias": 0.22,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -557,7 +557,7 @@
       "Ultima_Inspecao": "2025-04-01",
       "Total_Inspecoes": 3,
       "Dias_Parada_Acumulados": 202.0,
-      "MTBF_Dias": 4.091549295774648,
+      "MTBF_Dias": 4.105633802816901,
       "MTTR_Dias": 1.4225352112676057,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -568,7 +568,7 @@
       "Ultima_Inspecao": "2024-12-02",
       "Total_Inspecoes": 2,
       "Dias_Parada_Acumulados": 0.0,
-      "MTBF_Dias": 51.5,
+      "MTBF_Dias": 51.7,
       "MTTR_Dias": 0.0,
       "Nivel_Risco": "🟩 BAIXO RISCO"
     },
@@ -579,7 +579,7 @@
       "Ultima_Inspecao": "2024-12-09",
       "Total_Inspecoes": 2,
       "Dias_Parada_Acumulados": 1.0,
-      "MTBF_Dias": 55.0,
+      "MTBF_Dias": 55.2,
       "MTTR_Dias": 0.1,
       "Nivel_Risco": "🟩 BAIXO RISCO"
     },
@@ -601,7 +601,7 @@
       "Ultima_Inspecao": "2024-11-23",
       "Total_Inspecoes": 2,
       "Dias_Parada_Acumulados": 128.0,
-      "MTBF_Dias": 7.35,
+      "MTBF_Dias": 7.375,
       "MTTR_Dias": 1.6,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -612,7 +612,7 @@
       "Ultima_Inspecao": "2025-09-12",
       "Total_Inspecoes": 3,
       "Dias_Parada_Acumulados": 63.0,
-      "MTBF_Dias": 8.758064516129032,
+      "MTBF_Dias": 8.790322580645162,
       "MTTR_Dias": 1.0161290322580645,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -623,19 +623,19 @@
       "Ultima_Inspecao": "2025-11-04",
       "Total_Inspecoes": 4,
       "Dias_Parada_Acumulados": 166.0,
-      "MTBF_Dias": 1.3756097560975609,
+      "MTBF_Dias": 1.3804878048780487,
       "MTTR_Dias": 0.40487804878048783,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
     {
       "Turbina": "AEG-36",
-      "Total_Imas_Trocados": 300.0,
+      "Total_Imas_Trocados": 320.0,
       "Primeira_Inspecao": "2024-05-03",
-      "Ultima_Inspecao": "2025-03-20",
-      "Total_Inspecoes": 3,
+      "Ultima_Inspecao": "2025-11-13",
+      "Total_Inspecoes": 4,
       "Dias_Parada_Acumulados": 144.0,
-      "MTBF_Dias": 1.8566666666666667,
-      "MTTR_Dias": 0.48,
+      "MTBF_Dias": 1.746875,
+      "MTTR_Dias": 0.45,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
     {
@@ -667,7 +667,7 @@
       "Ultima_Inspecao": "2025-04-23",
       "Total_Inspecoes": 3,
       "Dias_Parada_Acumulados": 2.0,
-      "MTBF_Dias": 4.466666666666667,
+      "MTBF_Dias": 4.483333333333333,
       "MTTR_Dias": 0.016666666666666666,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -689,7 +689,7 @@
       "Ultima_Inspecao": "2025-10-07",
       "Total_Inspecoes": 4,
       "Dias_Parada_Acumulados": 18.0,
-      "MTBF_Dias": 180.0,
+      "MTBF_Dias": 180.66666666666666,
       "MTTR_Dias": 6.0,
       "Nivel_Risco": "🟩 BAIXO RISCO"
     },
@@ -722,7 +722,7 @@
       "Ultima_Inspecao": "2025-04-07",
       "Total_Inspecoes": 4,
       "Dias_Parada_Acumulados": 29.0,
-      "MTBF_Dias": 22.52173913043478,
+      "MTBF_Dias": 22.608695652173914,
       "MTTR_Dias": 1.2608695652173914,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -733,7 +733,7 @@
       "Ultima_Inspecao": "2025-11-05",
       "Total_Inspecoes": 4,
       "Dias_Parada_Acumulados": 198.0,
-      "MTBF_Dias": 5.88,
+      "MTBF_Dias": 5.9,
       "MTTR_Dias": 1.98,
       "Nivel_Risco": "🟥 ALTO RISCO"
     },
@@ -744,7 +744,7 @@
       "Ultima_Inspecao": "2025-03-17",
       "Total_Inspecoes": 3,
       "Dias_Parada_Acumulados": 24.0,
-      "MTBF_Dias": 26.95,
+      "MTBF_Dias": 27.05,
       "MTTR_Dias": 1.2,
       "Nivel_Risco": "🟨 MÉDIO RISCO"
     },
@@ -1508,24 +1508,24 @@
     },
     {
       "Mes_Ano": "2025-11",
-      "Imas_Trocados": 20.0,
-      "Turbinas_Unicas": 2,
+      "Imas_Trocados": 40.0,
+      "Turbinas_Unicas": 5,
       "Dias_Parada_Total": 1.0
     }
   ],
   "resumo": {
-    "total_imas_trocados": 1746.0,
+    "total_imas_trocados": 1766.0,
     "total_turbinas": 47,
-    "total_criticidade": 148,
+    "total_criticidade": 151,
     "total_maquinas_paradas": 31,
     "total_carreiras": 95,
-    "total_oxidacao_baixa": 36,
-    "total_oxidacao_media": 7,
-    "total_oxidacao_alta": 4,
+    "total_oxidacao_baixa": 39,
+    "total_oxidacao_media": 5,
+    "total_oxidacao_alta": 3,
     "total_oxidacao": 47,
     "periodo_analise": "2024-04 a 2025-11",
-    "data_ultima_atualizacao": "2025-11-11 15:38:24",
-    "total_registros": 148,
+    "data_ultima_atualizacao": "2025-11-13 15:51:53",
+    "total_registros": 151,
     "observacao_oxidacao": "Baseado na última inspeção de cada turbina"
   }
 }
